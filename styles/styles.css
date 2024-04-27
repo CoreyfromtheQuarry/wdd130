@@ -24,6 +24,10 @@ img {
     display: block;
 }
 
-p {
+main p {
     padding: 10px 180px;
+}
+
+p {
+    padding: 10;
 }
