@@ -14,7 +14,7 @@ h1 {
     text-align: center;
 }
 
-img {
+main img {
     width: 150px;
     height: auto;
     border: 1px solid steelblue;
@@ -25,9 +25,35 @@ img {
 }
 
 main p {
-    padding: 10px 180px;
+    padding: 1rem;
+    max-width: 840px;
+    display: block;
+    margin: 2rem auto;
 }
 
 p {
-    padding: 10;
+    padding: 0;
+}
+
+aside {
+    width: 20rem;
+    margin: 1rem;
+    border: 1px solid rgba(0, 0, 0, .2);
+    padding: 1rem; 
+    background-color: floralwhite;
+    color: darkslategray;
+    text-align: center;
+    display: block;
+    margin: auto;
+}
+
+aside img {
+    width: 200px;
+    height: auto;
+}
+
+footer {
+    margin-top: 1rem;
+    border-top: 1px dotted black;
+    text-align: center;
 }
