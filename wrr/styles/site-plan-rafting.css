@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=font-name&family=optional-2nd-font-name&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..800;1,400..800&family=Lobster&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
 
 :root {
     --primary-color: #1C568A;
@@ -7,7 +7,7 @@
     --accent2-color: #675D52;
     --accent3-color: #7BC5FE;
   
-    --title-font: 'Lobster', display;
+    --title-font: 'Lobster', serif;
     --paragraph-font: 'Montserrat', sans-serif;
     --heading-font: 'EB Garamond', serif;
   
@@ -15,6 +15,10 @@
     --nav-link-color: #8A7E6C;
     --nav-hover-link-color: #675D52;
     --nav-hover-background-color: #1C568A;
+}
+
+header h1 {
+    font-family: var(--title-font);
 }
 
 body {
@@ -25,7 +29,7 @@ body {
 
 h1, h2, h3, h4, h5, h6 {
     font-family: var(--heading-font);
-    color: var(--primary-color);
+    color: var(--primary-color)
 }
 
 header {
