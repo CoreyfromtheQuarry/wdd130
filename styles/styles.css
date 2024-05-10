@@ -29,11 +29,12 @@ main {
 main img {
     width: 150px;
     height: auto;
-    border: 1px solid steelblue;
+    border: 2px solid steelblue;
     padding: 2px;
     box-shadow: 0 0 30px gray;
-    margin: auto;
+    margin: 2.5rem auto;
     display: block;
+    float: right;
 }
 
 main p {
@@ -41,6 +42,7 @@ main p {
     max-width: 840px;
     display: block;
     margin: 2rem auto;
+    text-align: center;
 }
 
 p {
@@ -49,14 +51,10 @@ p {
 
 aside {
     width: 20rem;
-    margin: 1rem;
-    border: 1px solid rgba(0, 0, 0, .2);
-    padding: 1rem; 
-    background-color: floralwhite;
-    color: darkslategray;
     text-align: center;
     display: block;
     margin: auto;
+    position: relative;
 }
 
 aside img {
@@ -68,4 +66,20 @@ footer {
     margin-top: 1rem;
     border-top: 1px dotted black;
     text-align: center;
+}
+
+/* Class Selectors */
+
+.box {
+    margin: 1rem;
+    border: 1px solid rgba(0, 0, 0, .2);
+    padding: 1rem;
+    background-color: cornflowerblue;
+    color: orange;
+}
+
+aside h2 {
+    position: absolute;
+    top: 25px;
+    left: 115px;
 }
