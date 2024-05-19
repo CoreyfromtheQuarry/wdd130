@@ -42,20 +42,15 @@ main img {
     float: right; 
 }
 
-ul a{
+ul a, p {
     color: black;
 }
 
 main p {
     padding: 1rem;
-    max-width: 840px;
     display: block;
     margin: 2rem auto;
     text-align: center;
-}
-
-p {
-    padding: 0;
 }
 
 aside {
@@ -84,7 +79,8 @@ header, footer, .grid {
 }
 
 /* Class Selectors */
-.grid{
+
+.grid {
     display: grid;
     grid-template-columns: 2fr 3fr;
 }
