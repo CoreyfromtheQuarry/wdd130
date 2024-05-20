@@ -9,9 +9,11 @@
         <link rel="stylesheet" href="styles/rafting.css">
     </head>
     <body>
-        <header>
-            <img src="images/logo.png" alt="wwr logo">
-            <nav>
+        <header class="grid">
+            <div class="logo-box">
+                <img class="logo" src="images/logo-nobg.png" alt="wwr logo">
+            </div>
+            <nav class="navigation">
                 <a href="index.html">Home</a>
                 <a href="about.html">About Us</a>
                 <a href="trips.html">Trips</a>
@@ -21,29 +23,52 @@
         <main>
             <div class="hero">
                 <img class="banner" src="images/hero.jpg" alt="wide view of an earth river nestled in a red rock vally">
-                <h1>The White Water Company</h1>
-                <article>
-                    <h2>Our Commitment</h2>
-                    <img src="images/happy_guy.webp" alt="a very happy employee" width="200">
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo facere enim beatae officiis eos animi placeat incidunt officia sint expedita.</p>
-                </article>
-                <section>
+                <div class="banner-box">
+                    <h1>The White Water Company</h1>
+                    <article>
+                        <h2>Our Commitment</h2>
+                        <img src="images/happy_guy.webp" alt="a very happy employee" width="200">
+                        <p>Our mission is to provide our awesome clients an experiance fit for their awesomeness! We hop to provide this by offering quality equipment, trained and expert guides, video services, and incredible rapid tails! We hope you love your adventure as amuch as we love having you here! Thank you for choosing WWC! (The White Water Company)</p>
+                    </article>
+                </div>
+                <section class="history-grid">
                     <h2>History</h2>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque, eveniet fuga veniam perspiciatis vitae explicabo. Dolorum suscipit velit beatae. Obcaecati aspernatur quae dolorem velit molestias illum cupiditate ex sit provident natus corrupti distinctio minus sequi nihil non minima itaque, exercitationem ea officiis praesentium? Rem dolores error molestias culpa nisi nulla veniam quod sint sed ducimus aperiam, consectetur vero soluta tempore placeat nostrum at. Cum illo eum accusantium placeat ut aut nobis in sunt ex, cupiditate voluptas similique quod perferendis cumque deleniti asperiores voluptatem ducimus tempora perspiciatis eaque pariatur nihil aliquid? Optio obcaecati molestiae tenetur facere ratione ipsum quidem voluptas voluptate?</p>
+                    <div class="history-flex">
+                        <p>The white water company has been around since white water rafting first began in 1943 taking young scouts through exciting and challenging river trails and weve always strived to give our best!</p>
+                        <img class="history-img" src="images/logo.png" alt="History logo">
+                        <p>Fun fact this awesome logo we have no wasnt alwasy our logo, earlier in WWC's existance the log was this ugly brown paddle over an attempt at blue ugly water the owner made in ms paint!</p>
+                    </div>
                 </section>
-                <section>
+                <section class="adventure-grid">
                     <h2>Adventure Awaits You!</h2>
-                    <img src="images/adventure1.jpg" alt="crew getting ready to raft">
-                    <img src="images/adventure2.jpg" alt="crew on the water">
-                    <img src="images/adventure3.jpg" alt="crew on the water hitting a rapid">
-                    <img src="images/adventure4.jpg" alt="crew far along the river">
-                    <img src="images/adventure5.jpg" alt="a solo adventurer hitting a big rapid">
+                    <div class="adventure-flex">
+                        <figure>
+                            <img src="images/adventure1.jpg" alt="crew getting ready to raft">
+                            <figcaption>Shores of Bear River</figcaption>
+                        </figure>
+                        <figure>
+                            <img src="images/adventure2.jpg" alt="crew on the water">
+                            <figcaption>Bear River</figcaption>
+                        </figure>
+                        <figure>
+                            <img src="images/adventure3.jpg" alt="crew on the water hitting a rapid">
+                            <figcaption>Challengers Pass</figcaption>
+                        </figure>
+                        <figure>
+                            <img src="images/adventure4.jpg" alt="crew far along the river">
+                            <figcaption>Faraway Bend</figcaption>
+                        </figure>
+                        <figure>
+                            <img src="images/adventure5.jpg" alt="a solo adventurer hitting a big rapid">
+                            <figcaption>Demons Peak</figcaption>
+                        </figure>
+                    </div>
                 </section>
             </div>
         </main>
-        <footer>
+        <footer class="footer-grid">
             <p>©️2024 The White Water Company 🪨Corey Gish🪨</p>
-            <nav>
+            <nav class="footer-flex">
                 <a href="https://www.facebook.com/">
                     <img src="images/facebook_logo.webp" alt="facebook">
                 </a>

@@ -19,43 +19,136 @@
 
 h1 {
     font-family: var(--title-font);
-    color: var(--secondary-color);
+    color: black;
     position: absolute;
     top: 1rem;
-    background-color: #675D52;
+    left: 40%;
 }
 
 h2 {
     font-family: var(--heading-font);
-    color: var(--accent2-color);
+    color:black;
+    text-align: center;
 }
 
 p {
     font-family: var(--paragraph-font);
-    color: var(--accent3-color);
+    color: black;
+    text-align: center;
+}
+
+header {
+    display: grid;
+    grid-template-columns: 1fr 4fr;
+    background-color: #2a87d8;
+    border-bottom: solid black 5px;
+    
+}
+
+.logo-box {
+    display: flex;
+    justify-items: center;
+    align-items: center;
+}
+
+.logo {
+    width: 6rem;
+    height: auto;
+}
+
+nav {
+    display: flex;
+    margin: 1.5rem;
+}
+
+nav a {
+    flex: 100%;
+    font-weight: 700;
+    font-size: larger;
+    color: black;
+    text-decoration: none;
+    justify-items: center;
+    align-items: center;
+}
+
+.banner-box {
+    display: flex;
 }
 
 .hero {
     position: relative;
 }
 
+.banner {
+    display: flex;
+    width: 100%;
+    height: auto;
+    order: -1;
+}
+
 article {
     position: absolute;
     top: 160px;
-    background-color: rgba(10, 20, 200, .2);
+    background-color: rgba(246, 246, 249, 0.2);
+    justify-items: center;
+    align-items: center;
 }
 
 article img {
     float: right;
 }
 
-header img {
-    width: 6rem;
+.history-grid {
+    display: grid;
+    grid-template-rows: 1fr 5fr;
+    border: solid black 5px;
+    height: 200px;
+    width: auto;
+}
+
+.history-flex {
+    display: flex;
+}
+
+.history-img {
+    margin: 1rem;
+    height: 80px;
+    width: auto;
+}
+
+.adventure-grid {
+    display: grid;
+    grid-template-rows: 1fr 3fr;
+}
+
+.adventure-flex {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    text-align: center;
+}
+
+figure img {
+    width: 200px;
     height: auto;
 }
 
-.banner {
-    display: block;
-    width: 100%;
+.footer-grid {
+    display: grid;
+    grid-template-columns: 4fr 1fr;
+    border: solid black 5px;
     height: auto;
+    width: auto;
+}
+
+.footer-flex {
+    justify-content: space-evenly;
+}
+
+footer p {
+    font-size: larger;
+}
+
+footer img {
+    height: 2rem;
 }
