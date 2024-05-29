@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>WDD130 | HTML Form - User Poll</title>
+        <meta name="description" content="practice using forms in html">
+        <meta name="author" content="Corey Gish">
+    </head>
+    <body>
+        <header>
+            <h1>WDD130 | Corey Gish | HTML Form - User Poll</h1>
+        </header>
+        <main>
+            <form>
+                <fieldset>
+                    <legend>Contact Information</legend>
+                    <label for="fullname">Full Name</label>
+                    <input type="text" name="fullname" id="fullname">
+                    <label for="usermail">Email</label>
+                    <input type="email" name="usermail" id="usermail">
+                </fieldset>
+                <fieldset>
+                    <legend>Questions</legend>
+                    <label for="browser">What is your preffered browser?</label>
+                    <select name="browser" id="browser">
+                        <option value="chrome">Chrome</option>
+                        <option value="firefox">Firefox</option>
+                        <option value="edge">Edge</option>
+                    </select>
+                    <label for="pet">Do you have a pet?</label>
+                    <input type="checkbox" name="pet" id="pet">
+                    <label for="lived">List the places you've lived.</label>
+                    <textarea name="lived" id="lived">Edgewater, Glen Burnie, Silver Springs, Idaho Falls, Jackson Hole, Shelly Idaho, Ashton</textarea>
+                </fieldset>
+                <button type="button">Submit Poll</button>
+            </form>
+        </main>
+        <footer>
+            <p>©️2024 | HTML Form - User Poll Activity | Corey Gish</p>
+        </footer>
+    </body>
+</html>
