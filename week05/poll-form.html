@@ -6,6 +6,7 @@
         <title>WDD130 | HTML Form - User Poll</title>
         <meta name="description" content="practice using forms in html">
         <meta name="author" content="Corey Gish">
+        <link rel="stylesheet" href="styles/poll-form.css">
     </head>
     <body>
         <header>
@@ -15,21 +16,29 @@
             <form>
                 <fieldset>
                     <legend>Contact Information</legend>
-                    <label for="fullname">Full Name</label>
-                    <input type="text" name="fullname" id="fullname">
-                    <label for="usermail">Email</label>
-                    <input type="email" name="usermail" id="usermail">
+                    <div class="form-item column2">
+                        <label for="fullname">Full Name</label>
+                        <input type="text" name="fullname" id="fullname">
+                    </div>
+                    <div class="form-item column2">
+                        <label for="usermail">Email</label>
+                        <input type="email" name="usermail" id="usermail">
+                    </div>
                 </fieldset>
                 <fieldset>
                     <legend>Questions</legend>
-                    <label for="browser">What is your preffered browser?</label>
-                    <select name="browser" id="browser">
-                        <option value="chrome">Chrome</option>
-                        <option value="firefox">Firefox</option>
-                        <option value="edge">Edge</option>
-                    </select>
-                    <label for="pet">Do you have a pet?</label>
-                    <input type="checkbox" name="pet" id="pet">
+                    <div class="form-item column1">
+                        <label for="browser">What is your preffered browser?</label>
+                        <select name="browser" id="browser">
+                            <option value="chrome">Chrome</option>
+                            <option value="firefox">Firefox</option>
+                            <option value="edge">Edge</option>
+                        </select>
+                    </div>
+                    <div class="form-item column1">
+                        <label for="pet">Do you have a pet?</label>
+                        <input type="checkbox" name="pet" id="pet">
+                    </div>
                     <label for="lived">List the places you've lived.</label>
                     <textarea name="lived" id="lived">Edgewater, Glen Burnie, Silver Springs, Idaho Falls, Jackson Hole, Shelly Idaho, Ashton</textarea>
                 </fieldset>
