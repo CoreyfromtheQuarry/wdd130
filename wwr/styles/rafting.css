@@ -22,7 +22,7 @@ h1 {
     color: black;
     position: absolute;
     top: 1rem;
-    left: 40%;
+    text-align: center;
 }
 
 h2 {
@@ -152,3 +152,76 @@ footer p {
 footer img {
     height: 2rem;
 }
+
+#contact-h1 {
+    position: relative;
+}
+
+.about-h1 {
+    left: 35%;
+}
+
+.happy-employees-grid {
+    display: grid;
+    grid-template-rows: 1fr 3fr;
+    border: 5px solid black;
+}
+
+.happy-employees {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+form {
+    max-width: 500px;
+    width: auto;
+    margin: 0 auto;
+    padding: 1rem;
+    border: 1px solid black;
+    border-radius: 2rem;
+    background-color: #2a87d8;
+    display: grid;
+}
+
+fieldset {
+    font-family: var(--paragraph-font);
+    display: grid;
+    grid-gap: .5rem;
+    margin: 1rem;
+    padding: 1rem;
+    border: 1px solid black;
+    background-color: var(--accent1-color);
+}
+
+legend {
+    padding: .5em;
+    color: black;
+    font-size: larger;
+    font-weight: bold;
+    font-family: var(--heading-font);
+}
+
+label {
+    display: block;
+    margin-top: .5rem;
+}
+
+button {
+    margin: 1rem;
+    background-color: navy;
+    color: #fff;
+    border: none;
+    border-radius: .5rem;
+    padding: .75rem;
+    font-size: 1.2rem;
+  }
+
+  button:hover {
+    background-color: darkgreen;
+  }
+
+  .inline-label{
+    display: inline;
+  }
