@@ -225,3 +225,7 @@ button {
   .inline-label{
     display: inline;
   }
+
+  .centered-label {
+    text-align: center;
+  }
