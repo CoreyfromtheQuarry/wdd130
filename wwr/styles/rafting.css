@@ -229,3 +229,45 @@ button {
   .centered-label {
     text-align: center;
   }
+
+  table {
+    text-align: center;
+    border: 3px solid black;
+    margin: auto;
+  }
+
+  th {
+    background: #2a87d8;
+  }
+
+  td {
+    background-color: lightblue;
+  }
+
+  td , th {
+    width: 150px;
+    border: 2px solid black;
+  }
+
+  #trips-h1 {
+    position: relative;
+  }
+
+.trips-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    border: 5px solid black;
+}
+
+.trips-grid img {
+    max-width: 500px;
+    width: auto;
+    margin-left: 10.5rem;
+}
+
+.trips-grid figcaption {
+    max-width: 500px;
+    width: auto;
+    margin-left: 10.5rem ;
+}
+ 
