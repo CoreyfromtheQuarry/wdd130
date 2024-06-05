@@ -126,6 +126,11 @@ article img {
     align-items: center;
     justify-content: space-around;
     text-align: center;
+    width: 300px;
+}
+
+.adventure-flex figure, figcaption {
+    max-width: 300px;
 }
 
 figure img {
