@@ -139,7 +139,7 @@ figure img {
     border: solid black 5px;
     height: auto;
     width: auto;
-    background-color: #2a87d8;
+    background-color: #cde4f8;
 }
 
 .footer-flex {
@@ -235,6 +235,7 @@ button {
     text-align: center;
     border: 3px solid black;
     margin: auto;
+    color: black;
   }
 
   th {
