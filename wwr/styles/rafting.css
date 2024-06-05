@@ -139,6 +139,7 @@ figure img {
     border: solid black 5px;
     height: auto;
     width: auto;
+    background-color: #2a87d8;
 }
 
 .footer-flex {
@@ -177,7 +178,7 @@ footer img {
 form {
     max-width: 500px;
     width: auto;
-    margin: 0 auto;
+    margin: 10px auto;
     padding: 1rem;
     border: 1px solid black;
     border-radius: 2rem;
@@ -271,3 +272,36 @@ button {
     margin-left: 10.5rem ;
 }
  
+.hero-index-container {
+    position: relative;
+    text-align: center;
+    color: white;
+}
+
+.hero-index-title {
+    position: absolute;
+    top: .01%;
+    left: 47%;
+    transform: translate(-50%, -50%);
+}
+
+.home-river {
+    height: auto;
+    width: 100%;
+}
+
+.index-grid-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    border: 5px black solid;
+    margin: 10px;
+}
+
+.index-grid-container img, figcaption {
+    width: 500px;
+}
+
+#adjust {
+    top: 10%;
+    left: 50%;
+}
